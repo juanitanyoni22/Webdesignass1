@@ -115,8 +115,10 @@ margin: 0.5rem;}
 .image1{display: grid;
 grid-template-columns: auto auto;}
 .im{width: 100%;
-height: 100%;}
+height: 100%;
+margin: 0.5rem;}
 .lorem{display: flex;
 flex-wrap: wrap;
 width: 100%;
-height: 100%;}
+height: 100%;
+margin: 0.5rem;}
