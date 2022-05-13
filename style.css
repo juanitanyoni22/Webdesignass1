@@ -4,8 +4,9 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font: 12px;
-}
+    font-size: 1 rem;
+    font-family: Verdana sans-serif;
+cursor: auto;}
 
  .navbar
 {
@@ -14,13 +15,20 @@ body{
     align-items: center;
     background-color:black;
     color: aliceblue;
+    height: 50px;
     
 }
  .tittle
  {
      margin: 2rem;
-     font-size: 6rem;
+     font-size: 1rem;
+     letter-spacing: 5px;
+     background-color: darkgray;
+     color:black;
+     padding: 1rem;
  }
+ .tittle:hover{color:gray; 
+background-color: darkgrey;                                                                }
 
   .links ul{
       display: flex;
@@ -31,7 +39,7 @@ body{
 
 .links li a
 {
-    text-decoration: none;
+    text-decoration: none;                          ation: none;
     margin: 0.5rem;
     color: aliceblue;
      }
@@ -44,8 +52,52 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: black;
 }
+.footer-items:active{text-align: center;
+margin: 1rem;
+text-decoration: none;
+color: antiquewhite;}
+
+.footer-items:hover{color: brown;
+margin: 1rem;
+text-decoration: none;}
+
        
-    
+   .grid-container{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       background-color: aliceblue;
+       padding: 10px;
+   }
+
+   .grid-item{
+    border: 1px solid;
+    padding: 10px;
+    font-size: 30px;
+    align: centre;
+  }  
+  img{width: 100%;
+height: 100%;
+margin: 0.5rem;}
+ 
+/*  ul{display: flex;
+     font-style: normal;
+list-style: none;
+flex-wrap: wrap;
+flex-direction:row ;}
+.d-flex-c{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;}
+
+.flex{display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+
+img{width: 100%;
+height:100%;}
+
+.flex-item{width: 25%;
+margin: 0.5;} */
