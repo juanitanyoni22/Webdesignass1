@@ -67,13 +67,14 @@ text-decoration: none;}
        
    .grid-container{
        display: grid;
-       grid-template-columns: auto auto auto;
+       grid-template-columns: auto auto;
        background-color: aliceblue;
-       padding: 10px;
+       padding: 10px 10px;
    }
 
    .grid-item{
     border: 1px solid;
+    margin: 0.5rem;
     padding: 10px;
     font-size: 30px;
     align: centre;
@@ -101,3 +102,12 @@ height:100%;}
 
 .flex-item{width: 25%;
 margin: 0.5;} */
+
+.pr{list-style: none;
+text-decoration: none;
+margin: 0.5rem;}
+
+.paragraph{display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aliceblue;
+    padding: 10px;}
